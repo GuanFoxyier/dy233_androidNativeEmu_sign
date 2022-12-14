@@ -1,15 +1,11 @@
 import posixpath
 import os.path
-from unicorn import *
-from unicorn.arm_const import *
 from androidemu.emulator import Emulator
 from androidemu.utils import memory_helpers
 from androidemu.java.java_class_def import JavaClassDef
 from androidemu.java.java_method_def import java_method_def
 from androidemu.java.classes.string import String
 from androidemu.java.classes.list import List
-from androidemu.java.classes.array import *
-from androidemu.java.constant_values import *
 
 
 class ms_bd_c_k(metaclass=JavaClassDef, jvm_name='ms/bd/c/k'):
