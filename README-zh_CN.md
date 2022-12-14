@@ -44,3 +44,6 @@ if self.__pid not in self.__tasks_map:
 ```
 
 8. python3 example_dy233.py
+
+## 例子
+![result](./1.png)
